@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trung Khánh - Lập trình viên</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #007bff;
+      color: white;
+      text-align: center;
+      padding: 30px 10px;
+    }
+    header img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 4px solid white;
+      object-fit: cover;
+    }
+    header h1 {
+      margin: 10px 0 5px;
+    }
+    header p {
+      margin: 0;
+      font-size: 18px;
+    }
+    main {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    h2 {
+      border-left: 5px solid #007bff;
+      padding-left: 10px;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .project {
+      background: white;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .project:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    }
+    .project img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+    .project h3 {
+      margin: 10px;
+      font-size: 18px;
+    }
+    .project p {
+      margin: 0 10px 10px;
+      font-size: 14px;
+      color: #555;
+    }
+    .meta-row {
+      display: flex;
+      justify-content: space-between;
+      font-size: 12px;
+      background-color: #f8f8f8;
+      padding: 8px 10px;
+      border-top: 1px solid #eee;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="https://i.ibb.co/MD65SG3k/IMG-2169-Original.png" alt="Trung Khánh">
+  <h1>Trung Khánh</h1>
+  <p>Lập trình viên & Nhà phát triển Tool Game</p>
+</header>
+
+<main>
+  <section>
+    <h2>💡 Giới thiệu</h2>
+    <p>Xin chào! Mình là <b>Trung Khánh</b> – một lập trình viên đam mê công nghệ và phát triển các công cụ hỗ trợ cho game thủ. 
+    Mình chuyên tạo ra các tool tối ưu hiệu suất, tăng trải nghiệm người dùng, và phát triển ứng dụng web lẫn mobile.</p>
+  </section>
+
+  <section>
+    <h2>🎮 Tool Game</h2>
+    <div class="projects">
+
+      <div class="project">
+        <img src="https://i.ibb.co/VYbTQT8P/IMG-1142.webp" alt="Tool Free Fire">
+        <h3>🔥 Tool Free Fire</h3>
+        <p>Hỗ trợ auto aim, macro, tăng tốc độ bắn, giúp leo rank an toàn.</p>
+        <div class="meta-row">
+          <div>Tech: Python / Mobile Script</div>
+          <div>Link: —</div>
+        </div>
+      </div>
+
+      <div class="project">
+        <img src="https://i.ibb.co/8Lrk4ytx/IMG-1143.jpg" alt="Tool Liên Quân">
+        <h3>⚡ Tool Liên Quân</h3>
+        <p>Auto farm, hack map, combo skill nhanh, tăng tốc di chuyển.</p>
+        <div class="meta-row">
+          <div>Tech: Lua Script / Android Mod</div>
+          <div>Link: —</div>
+        </div>
+      </div>
+
+      <div class="project">
+        <img src="https://i.ibb.co/fZW9FVs/IMG-1144.jpg" alt="Tool PUBG">
+        <h3>🎯 Tool PUBG</h3>
+        <p>ESP, hack map, chống giật, hỗ trợ bắn chính xác tầm xa.</p>
+        <div class="meta-row">
+          <div>Tech: C++ / Memory Edit</div>
+          <div>Link: —</div>
+        </div>
+      </div>
+
+      <div class="project">
+        <img src="https://i.ibb.co/gFrhyJ3m/IMG-1145.jpg" alt="Tool Game Offline">
+        <h3>🎮 Tool Game Offline</h3>
+        <p>Mod full tiền, mở khóa skin, tăng FPS cho game nặng.</p>
+        <div class="meta-row">
+          <div>Tech: APK Mod / Cheat Engine</div>
+          <div>Link: —</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+</main>
+
+</body>
+</html>
